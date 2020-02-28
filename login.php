@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V4</title>
+	<title>Syria Care</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="login/images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="https://i.imgur.com/QRAUqs9.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="login/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -28,11 +29,17 @@
 <!--===============================================================================================-->
 </head>
 <body>
-	
+
+	<?php
+		session_start();
+		//include('check_session.php'); 
+		
+	?>
+
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('login/images/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="login_validate.php" method="POST">
 					<div class="login100-form-avatar">
 						<img src="login/images/syriacare-logo.jpg" alt="LOGO">
 					</div>
@@ -45,7 +52,7 @@
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="pass" placeholder="Type your password">
+						<input class="input100" type="password" name="password" placeholder="Type your password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					
@@ -58,7 +65,7 @@
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<a href="index.html" class="login100-form-btn">Login</a>
+							<button type="submit" class="login100-form-btn">Login</button>
 						</div>
 					</div>
 
