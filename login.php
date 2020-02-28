@@ -31,8 +31,7 @@
 <body>
 
 	<?php
-		session_start();
-		//include('check_session.php'); 
+		session_start(); 
 		
 	?>
 
