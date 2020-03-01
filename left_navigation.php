@@ -9,22 +9,22 @@
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Donator</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-circle"></i><a href="table.html">List Donator</a></li>
-                            <li><i class="fa fa-circle"></i><a href="table.html">Add Donator</a></li>
+                            <li><i class="fa fa-circle"></i><a href="index.php?syc=1">List Donator</a></li>
+                            <li><i class="fa fa-circle"></i><a href="index.php?syc=4">Add Donator</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-calendar"></i>Event</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-circle"></i><a href="table.html">List Event</a></li>
-                            <li><i class="fa fa-circle"></i><a href="table.html">Create Event</a></li>
+                            <li><i class="fa fa-circle"></i><a href="index.php?syc=100">List Event</a></li>
+                            <li><i class="fa fa-circle"></i><a href="index.php?syc=100">Create Event</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>Staff</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-circle"></i><a href="table.html">List Staff</a></li>
-                            <li><i class="fa fa-circle"></i><a href="table.html">Add Staff</a></li>
+                            <li><i class="fa fa-circle"></i><a href="index.php?syc=100">List Staff</a></li>
+                            <li><i class="fa fa-circle"></i><a href="index.php?syc=100">Add Staff</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -31,14 +31,35 @@
 
             //arrange menu number with their page display
             switch ($menu) {
+                
+                // Donator Part 1 - 20
                 case 1:
-                    $filepage = "dashboard.php";
+                    $filepage = "donator/donator_list.php";
                     break;
-                
                 case 2:
-                    $filepage = "dashboard.php";
+                    $filepage = "donator/donator_detail.php";
+                    break;
+                case 3:
+                    $filepage = "donator/donator_edit.php";
+                    break;
+                case 4:
+                    $filepage = "donator/donator_add.php";
                     break;
                 
+                // Donator Part End
+                    
+                // Event Part 30 - 50
+
+
+                // Donator Part End
+
+                // User Part 100 - 120
+                case 100:
+                    $filepage = "user/profile.php";
+                    break;
+
+                // User Part End
+
                 default:
                     $filepage = "dashboard.php";
                     break;

@@ -14,7 +14,7 @@
                         </a>
 
                         <div class="user-menu dropdown-menu">
-                            <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile (<?php echo $_SESSION['user_name'] ?>)</a>
+                            <a class="nav-link" href="index.php?syc=100"><i class="fa fa- user"></i>My Profile (<?php echo $_SESSION['user_name'] ?>)</a>
                             <a class="nav-link" href="logout.php"><i class="fa fa-power -off"></i>Logout</a>
                         </div>
                     </div>
