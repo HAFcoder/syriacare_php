@@ -14,6 +14,7 @@
                         <table id="table_listdonator" class="table table-striped table-bordered">
                             <thead>
                                 <tr>
+                                    <th><input type="checkbox" name="select_all" value="1" id="example-select-all"></th>
                                     <th>Name</th>
                                     <th>Contact No.</th>
                                     <th>Email</th>
@@ -22,6 +23,7 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td></td>
                                     <td>Tiger Nixon</td>
                                     <td>01632687</td>
                                     <td>tiger@user.com</td>
@@ -31,6 +33,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td></td>
                                     <td>Garrett Winters</td>
                                     <td>017965215</td>
                                     <td>garret@user.com</td>
@@ -64,6 +67,8 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-          $('#table_listdonator').DataTable();
-        } );
+            
+            $('#table_listdonator').DataTable();
+        
+        });
     </script>

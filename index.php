@@ -49,13 +49,27 @@
                 // Donator Part End
                     
                 // Event Part 30 - 50
-
+                case 30:
+                    $filepage = "event/event_list.php";
+                    break;
+                case 31:
+                    $filepage = "event/event_detail.php";
+                    break;
+                case 32:
+                    $filepage = "event/event_add.php";
+                    break;
 
                 // Donator Part End
 
                 // User Part 100 - 120
                 case 100:
                     $filepage = "user/profile.php";
+                    break;
+                case 101:
+                    $filepage = "user/staff_list.php";
+                    break;
+                case 102:
+                    $filepage = "user/staff_add.php";
                     break;
 
                 // User Part End

@@ -70,7 +70,7 @@
                                 </div>
                                 <div class="col col-md-6">
                                     <button type="submit" class="btn btn-success btn-sm">
-                                        <i class="fa fa-check"></i> Update
+                                        <i class="fa fa-check"></i> Register
                                     </button>
                                 </div> 
                             </div>
@@ -81,6 +81,8 @@
         </div>
     </div>
 
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
 
         function setusername() {
