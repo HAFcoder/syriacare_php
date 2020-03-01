@@ -3,17 +3,17 @@
     <div class="animated fadeIn">
         <!-- Widgets  -->
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-4">
                 <div class="card">
                     <div class="card-body">
                         <div class="stat-widget-five">
                             <div class="stat-icon dib flat-color-1">
-                                <i class="pe-7s-bandaid"></i>
+                                <i class="fa fa-users"></i>
                             </div>
                             <div class="stat-content">
                                 <div class="text-left dib">
-                                    <div class="stat-text">$<span class="count">12950</span></div>
-                                    <div class="stat-heading">Winter Aid Equipments</div>
+                                    <div class="stat-text"><span class="count">100000</span></div>
+                                    <div class="stat-heading">Total Donator</div>
                                 </div>
                             </div>
                         </div>
@@ -21,17 +21,17 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-4">
                 <div class="card">
                     <div class="card-body">
                         <div class="stat-widget-five">
                             <div class="stat-icon dib flat-color-2">
-                                <i class="pe-7s-world"></i>
+                                <i class="fa fa-calendar"></i>
                             </div>
                             <div class="stat-content">
                                 <div class="text-left dib">
-                                    <div class="stat-text"><span class="count">15</span></div>
-                                    <div class="stat-heading">Sponsored Schools</div>
+                                    <div class="stat-text"><span class="count">10000</span></div>
+                                    <div class="stat-heading">Total Event</div>
                                 </div>
                             </div>
                         </div>
@@ -39,35 +39,17 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-4">
                 <div class="card">
                     <div class="card-body">
                         <div class="stat-widget-five">
                             <div class="stat-icon dib flat-color-3">
-                                <i class="pe-7s-browser"></i>
+                                <i class="fa fa-dollar"></i>
                             </div>
                             <div class="stat-content">
                                 <div class="text-left dib">
-                                    <div class="stat-text"><span class="count">590</span></div>
-                                    <div class="stat-heading">Sponsored Orphans</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="stat-widget-five">
-                            <div class="stat-icon dib flat-color-4">
-                                <i class="pe-7s-users"></i>
-                            </div>
-                            <div class="stat-content">
-                                <div class="text-left dib">
-                                    <div class="stat-text"><span class="count">1113</span></div>
-                                    <div class="stat-heading">Students Sponsored</div>
+                                    <div class="stat-text">RM<span class="count">100000</span></div>
+                                    <div class="stat-heading">Total Donation</div>
                                 </div>
                             </div>
                         </div>
@@ -81,150 +63,55 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                        <h4>EXAMPLE 1 TAB </h4>
+                        <h4>Donation Every Month</h4>
                     </div>
                     <div class="card-body">
-                        <p class="text-muted m-b-15">gdgdhghgf ghhgfhgf hgfhgfhggfj</p>
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <h3>Home</h3>
-                                <p>
-                                    SOME CONTENT.
-                                </p>
-                             </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                <h3>Profile</h3>
-                                <p>
-                                    SOME CONTENT.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                <h3>Cotanct</h3>
-                                <p>
-                                    SOME CONTENT.
-                                </p>
-                            </div>
+                        <div id='divplot1'>
+                            <!-- Plotly chart will be drawn inside this DIV -->
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- /# column -->
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Toggleable / Dynamic Tabs</h4>
+                        <h4>Donator Join Every Month</h4>
                     </div>
                     <div class="card-body">
-                        <p class="text-muted m-b-15">gcgfjfcchgch hhgchchjchjcg hghjgcjcjhcjhgchjgcjhgchggchjc</p>
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Menu 1</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Menu 2</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content pl-3 p-1" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                    <h3>Home</h3>
-                                    <p>Some content here.</p>
-                                </div>
-                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <h3>Menu 1</h3>
-                                    <p>Some content here.</p>
-                                </div>
-                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                    <h3>Menu 2</h3>
-                                    <p>Some content here.</p>
-                                </div>
-                            </div>
+                        <div id='divplot2'>
+                            <!-- Plotly chart will be drawn inside this DIV -->
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Calender Chart Weather  -->
-            <div class="row">
-                <div class="col-md-12 col-lg-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <!-- <h4 class="box-title">Chandler</h4> -->
-                            <div class="calender-cont widget-calender">
-                                <div id="calendar"></div>
-                            </div>
-                        </div>
-                    </div><!-- /.card -->
-                </div>
-            </div>
-            <!-- /Calender Chart Weather -->
-            <!-- Modal - Calendar - Add New Event -->
-            <div class="modal fade none-border" id="event-modal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title"><strong>Add New Event</strong></h4>
-                        </div>
-                        <div class="modal-body"></div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-success save-event waves-effect waves-light">Create event</button>
-                            <button type="button" class="btn btn-danger delete-event waves-effect waves-light" data-dismiss="modal">Delete</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /#event-modal -->
-            <!-- Modal - Calendar - Add Category -->
-            <div class="modal fade none-border" id="add-category">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title"><strong>Add a category </strong></h4>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label class="control-label">Category Name</label>
-                                        <input class="form-control form-white" placeholder="Enter name" type="text" name="category-name"/>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label class="control-label">Choose Category Color</label>
-                                        <select class="form-control form-white" data-placeholder="Choose a color..." name="category-color">
-                                            <option value="success">Success</option>
-                                            <option value="danger">Danger</option>
-                                            <option value="info">Info</option>
-                                            <option value="pink">Pink</option>
-                                            <option value="primary">Primary</option>
-                                            <option value="warning">Warning</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-danger waves-effect waves-light save-category" data-dismiss="modal">Save</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /#add-category -->
+
     </div>
         <!-- .animated -->
+
+
+
+    <script>
+
+        var data = [
+          {
+            x: ['Jan', 'Feb', 'Mac'],
+            y: [20, 14, 23],
+            type: 'bar'
+          }
+        ];
+
+        Plotly.newPlot('divplot1', data);
+
+
+        var trace1 = {
+          x: [1, 2, 3, 4],
+          y: [10, 12, 15, 25],
+          type: 'scatter'
+        };
+
+        var data2 = [trace1];
+
+        Plotly.newPlot('divplot2', data2);
+
+    </script>

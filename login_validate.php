@@ -10,7 +10,7 @@
         $_SESSION['user_name'] = $username;
         $_SESSION['user_id'] = $password;
 
-        header("Location: basehome.php"); 
+        header("Location: index.php"); 
 
     }else{
 
