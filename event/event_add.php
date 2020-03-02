@@ -48,7 +48,7 @@
                                 <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="textarea-input" class=" form-control-label"></label></div>
-                                        <div class="col-12 col-md-12"><textarea name="address" id="address" rows="25" placeholder="Content..." class="form-control"></textarea></div>
+                                        <div class="col-12 col-md-12"><textarea name="address" id="address" rows="50" placeholder="Content..." class="form-control"></textarea></div>
                                     </div>
                                 </form>
                             </div>
@@ -70,13 +70,14 @@
 
     
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
-    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="https://cdn.tiny.cloud/1/8ztjm2moxzpiopkeu12s6qazhtdgojjzaqipsxrafuinyb87/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    
     <script>
 
-var quill = new Quill('#address', {
-    theme: 'snow'
-  });
-
-
+    tinymce.init({
+        selector: '#address',
+        toolbar_drawer: 'floating',
+        plugins: "image",
+    });
+    
     </script>

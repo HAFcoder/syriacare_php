@@ -58,6 +58,9 @@
                 case 32:
                     $filepage = "event/event_add.php";
                     break;
+                case 33:
+                    $filepage = "event/event_blast.php";
+                    break;
 
                 // Donator Part End
 

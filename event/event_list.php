@@ -35,6 +35,7 @@
                                 <td>
                                     <a href="index.php?syc=31" type="button" class="btn btn-primary btn-sm">View Details</a>
                                     <a href="index.php?syc=3" type="button" class="btn btn-warning btn-sm">Edit</a>
+                                    <a href="index.php?syc=33" type="button" class="btn btn-success btn-sm"><i class="fa fa-bomb"></i>BLAST!</a>
                                 </td>
                             </tr>
                             <tr>
@@ -49,6 +50,7 @@
                                 <td>
                                     <a href="index.php?syc=31" type="button" class="btn btn-primary btn-sm">View Details</a>
                                     <a href="index.php?syc=3" type="button" class="btn btn-warning btn-sm">Edit</a>
+                                    <a href="index.php?syc=33" type="button" class="btn btn-success btn-sm"><i class="fa fa-bomb"></i>BLAST!</a>
                                 </td>
                             </tr>
                         </tbody>
